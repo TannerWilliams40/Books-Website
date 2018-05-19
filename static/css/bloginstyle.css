@@ -1,0 +1,332 @@
+.btn {
+	font-size:14px;
+	border-radius: 8px;
+	background-image: linear-gradient(lightgrey,darkgrey);
+	font-family: courier;
+	box-shadow: 2px 3px 4px 0px;
+}
+input{
+	font-family: courier;
+}
+html{
+    height: 100%;
+}
+body
+{
+	background-image: url("http://bestlifeonline.com/content/uploads/2017/05/10-beach-sea-photography-1024x640.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+header h1
+{
+	text-align: center;
+	font-size: 60px;
+    margin-top: 4%;
+	left: 43%;
+    position: absolute;
+    color: #232323;
+}
+.format
+{
+	height:200px;
+	width: 120px;
+}
+#choose
+{
+	margin-left: 42%;
+	margin-top: 43%;
+	position: absolute;
+	width:250px;
+}
+#log
+{
+	background-image: url("img/blur.png");
+	left: 34.65%;
+	top:25%;
+	width: 29.5%;
+	height: 69.5%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+ 	filter: blur(4px);
+}
+#inner
+{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: .16;
+	position: absolute;
+}
+#special
+{
+	border-left-width: 3px;
+    border-left-color: transparent;
+}
+#special2
+{
+	border-left-width: 3px;
+    border-left-color: transparent;
+}
+#logout
+{
+	position: absolute;
+	right:10%;
+	top:1%;
+	overflow: hidden;
+	padding: 1px 5px 8px 1px;
+}
+#signout
+{
+	float: right;
+	width: 27px;
+	height: 26px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: 3px;
+}
+#exit
+{
+	position: absolute;
+	margin-left: 302px;
+	margin-top: -104px;
+	height: 20px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-left: 1.9px;
+	border-radius: 30px;
+	background-color: transparent;
+}
+#delwish
+{
+	height: 20px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-left: 1.9px;
+	border-radius: 30px;
+	background-color: transparent;
+}
+#exit2
+{
+	position: absolute;
+	margin-left: 301px;
+	margin-top: -44px;
+	height: 20px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-left: 1.9px;
+	border-radius: 30px;
+	background-color: transparent;
+}
+#loginfields
+{
+	position:absolute;
+	margin-top: 20%;
+	margin-left: 40%;
+}
+#signupfields
+{
+	position:absolute;
+	margin-top: 16%;
+	margin-left: 40%;
+}
+#usernamel {
+	width:130%;
+	height: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+#passwordl {
+	width: 130%;
+	height:30px;
+	margin-top: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+#usernames {
+	width:130%;
+	height: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+#passwords {
+	width: 130%;
+	height:30px;
+	margin-top: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+#passwordr {
+	width: 130%;
+	height:30px;
+	margin-top: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+    border-width: 2px;
+    border-color: transparent;
+}
+.req:after {
+    content: "*";
+    color: red;
+    position: absolute;
+    margin-left: 236px;
+    margin-top: -29px;
+  	font-size: 20px;
+}
+.table
+{
+	margin-bottom: 0px;
+}
+#loginb{
+	width: 90px;
+	height: 40px;
+	top: 85%;
+	left: 40%;
+	position: absolute;
+}
+#cart
+{
+	position: relative;
+	top: 13vh;
+	left: 21.5%;
+	opacity: 1;
+}
+#wish
+{
+	position: absolute;
+	top: 13vh;
+	left: 65%;
+}
+#addtocart
+{
+	position: relative;
+	top: 8vh;
+	left: 67%;
+	opacity: 1;
+}
+#addtowish
+{
+	position: relative;
+	top: 15vh;
+	left: 57%;
+}
+#Return
+{
+	position: absolute;
+	top: 13vh;
+	left: 21.5%;
+	opacity: 1;
+}
+#clearwish
+{
+	position: absolute;
+	top: 13vh;
+	left: 65%;
+}
+#clearcart
+{
+	position: absolute;
+	top: 13vh;
+	left: 65%;
+}
+#whiteback
+{
+	background-color: white;
+	padding: 13% 3% 0% 3%;
+	opacity: .9;
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	filter: blur(0px);
+	position: absolute;
+	z-index: -1;
+}
+#rating
+{
+	font-size: 24px;
+}
+#desc
+{
+	width:65%;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+}
+#review
+{
+	width:65%;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+}
+#info
+{
+	width: 77.25%;
+	left: 12.5%;
+	top: 20vh;
+	position: relative;
+	border: .5px solid lightgrey;
+	height: 73vh;
+	overflow: auto;
+	margin-bottom: 25px;
+}
+#indinfo
+{
+	width: 77.25%;
+	left: 12.5%;
+	top: 20vh;
+	position: relative;
+	height: 73vh;
+	overflow: auto;
+	margin-bottom: 25px;
+}
+#product
+{
+
+	bottom-margin: 20px;
+
+}
+#subinfo
+{
+	height: 71.5vh;
+	overflow: auto;
+	margin-bottom: 25px;
+}
+#addtitle {
+	padding-left: 12px;
+	border: 1px solid ;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+#addwords {
+	border: 1px solid;
+    font-size: 14px;
+    border-radius: 25px;
+    }
+#signupb{
+	height: 40px;
+	width: 90px;
+	left: 52%;
+	top: 85%;
+	position: absolute;
+}
+#submit{
+	width: 90px;
+	height: 40px;
+	margin-left:75px;
+	margin-top:60px;
+}
+#submit2{
+	width: 90px;
+	height: 40px;
+	margin-left:75px;
+	margin-top:50px;
+}

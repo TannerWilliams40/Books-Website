@@ -1,0 +1,17 @@
+npm install line-reader
+npm install react-star-rating-component
+(might be missing a npm install to make covers work, not sure)
+
+node fio.js      (to populate your database)
+
+Sean's work:
+fio.js (database population)
+covers
+rating
+reviews
+
+Tanner's work:
+login/signup/logout
+cart/wish list
+database interactions/server side
+styling/css
